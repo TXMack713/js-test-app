@@ -1,0 +1,98 @@
+/* Frontend Masters Day2 CSS File*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C1D9C7;
+    color: #0C3B40;
+  }
+/* .background {
+  background-image: url(http://placekitten.com/);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} */
+  .intro {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.25rem;
+    margin: auto;
+    width: 80%;
+  }
+  img {
+    display: flex;
+    justify-content: space-around;
+    border: 0.75rem solid #8ABFA6;
+    margin: auto;
+  }
+  p {
+    margin: auto;
+    width: 95%;
+  }
+#links {
+  margin: auto;
+  width: 100%;
+}
+  h1 {
+    border: 0.375rem solid #0C3B40;
+    text-align: center;
+    background-color: #C1D9C7;
+    color: #F2913D;
+  }
+  div {
+    margin: auto;
+    width: 100%;
+  }
+  blockquote {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+  }
+  cite {
+    font-size: 1.625rem;
+  }
+  .bigbold {
+    font-weight: bold;
+    font-size: 1.125rem;
+    text-align: center;
+  }
+  ol li {
+    font-style: italic;
+  }
+  ul li {
+    font-style: italic;
+  }
+  a {
+    font-weight: bold;
+  }
+  a:link {
+    color: coral;
+  }
+  a:visited {
+    color: coral;
+  }
+  a:focus {
+    color: cyan;
+  }
+  a:hover {
+    color: seashell;
+    background-color: peru;
+  }
+  a:active {
+    color: crimson;
+  }
+  .blah{
+    margin: auto;
+    width: 100%;
+  } 
+  .blah_detail {
+    margin: auto;
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
