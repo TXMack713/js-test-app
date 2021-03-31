@@ -84,12 +84,23 @@ body {
     color: crimson;
   }
   .blah{
-    margin: auto;
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    margin: 0 auto;
     width: 100%;
   } 
+  .blah p {
+    margin: 0 auto 0.625rem auto;
+  }
   .blah_detail {
+    display: flex;
+    flex-flow: column nowrap;
     margin: auto;
     width: 100%;
+  }
+  .blah_detail p {
+    margin: 0 auto 0.625rem auto;
   }
   nav {
     display: flex;
